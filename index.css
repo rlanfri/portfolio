@@ -135,7 +135,6 @@ HOME
 }
 
 
-
 .parallax {
   background-image: url("https://res.cloudinary.com/dblc1bzmx/image/upload/v1664222448/Portfolio/brian-patrick-tagalog-_8hGFBxWD0A-unsplash_gzh8zb.jpg");
 }
@@ -235,6 +234,8 @@ HOME
   margin-left: 2.3em;
   margin-right: 2.3em;
   margin-top: 3em;
+  margin-bottom: 1em;
+  padding-bottom: 2em;
   background-color: white;
 
 }
@@ -332,6 +333,11 @@ HOME
 
 @media (max-width: 1300px) {
   /*breakpoint*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
   .overlay-navigation ul {
     display: flex;
     flex-direction: row;
@@ -401,11 +407,22 @@ HOME
     background-color: white;
 
   }
+  .skills{
+    background-color: #FFF;
+  }
+  .about{
+    background-color: #FFF;
+    
+  }
+  .container{
+    background-color: #FFF;
+  }
 
   .skills img {
 
     max-height: 200px;
     margin: 10px;
+
 
 
   }
@@ -449,8 +466,19 @@ HOME
 
 @media (max-width: 768px) {
   /*breakpoint*/
+  .buttonHome{
+    position: fixed;
+    color: #FFF;
+    bottom: 0;
+    margin: 0px 0px 50px 10px;
+  }
+  svg{
+    width:20px;
+    height:20px
+  }
   .overlay-navigation .btn {
     color: white;
+    font-size: 10px;
    }
    .overlay-navigation a {
      color: transparent;
@@ -461,7 +489,7 @@ HOME
   }
 
   .parallax4 h2 {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .parallax4 h2 {
@@ -513,6 +541,11 @@ HOME
     margin-left: 0em;
     margin-top: 0em;
 
+  }
+  .description {
+    font-weight: 100;
+    font-size: 1.3rem;
+    padding: 2em;
   }
 
   .work-grid {
